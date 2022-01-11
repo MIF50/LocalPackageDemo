@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (5.4.4)
+  - Alamofire (5.5.0)
   - LanguageManager-iOS (1.2.5)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ SPEC REPOS:
     - LanguageManager-iOS
 
 SPEC CHECKSUMS:
-  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
 
 PODFILE CHECKSUM: cc35ff9d742b6559e1abc0ee948c93eb69e7fc59
