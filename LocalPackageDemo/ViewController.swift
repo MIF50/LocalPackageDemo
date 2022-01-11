@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 import LanguageManager_iOS
+import Fastis
 
 class ViewController: UIViewController {
 
