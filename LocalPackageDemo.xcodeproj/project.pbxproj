@@ -25,6 +25,7 @@
 		0468466E278D952F00D29F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04684671278D952F00D29F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04684673278D952F00D29F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468467A278D97FA00D29F68 /* Fastis */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fastis; sourceTree = "<group>"; };
 		492B759782409AFDE663B232 /* Pods-LocalPackageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalPackageDemo.debug.xcconfig"; path = "Target Support Files/Pods-LocalPackageDemo/Pods-LocalPackageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		848F95C90A24278EB4B96C2F /* Pods-LocalPackageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalPackageDemo.release.xcconfig"; path = "Target Support Files/Pods-LocalPackageDemo/Pods-LocalPackageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EAD295A295238AA8D2F8C731 /* Pods_LocalPackageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalPackageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +46,7 @@
 		04684659278D952E00D29F68 = {
 			isa = PBXGroup;
 			children = (
+				0468467A278D97FA00D29F68 /* Fastis */,
 				04684664278D952E00D29F68 /* LocalPackageDemo */,
 				04684663278D952E00D29F68 /* Products */,
 				FE292A3BADC8954CB87B0AF0 /* Pods */,
@@ -88,7 +90,6 @@
 				492B759782409AFDE663B232 /* Pods-LocalPackageDemo.debug.xcconfig */,
 				848F95C90A24278EB4B96C2F /* Pods-LocalPackageDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
