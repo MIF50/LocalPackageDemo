@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.4)
+  - LanguageManager-iOS (1.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - LanguageManager-iOS
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - LanguageManager-iOS
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+
+PODFILE CHECKSUM: cc35ff9d742b6559e1abc0ee948c93eb69e7fc59
+
+COCOAPODS: 1.11.2
