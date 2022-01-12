@@ -41,7 +41,7 @@ let package = Package(
         .target(
             name: "Fastis",
             dependencies: ["JTAppleCalendar", "SnapKit", "PrettyCards"],
-            path: "./Sources",
+            path: ".",
             sources: ["Resources", "Sources", "Derived/Sources"]
         )
     ],
