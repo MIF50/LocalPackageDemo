@@ -14,6 +14,7 @@
 		0468466F278D952F00D29F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0468466E278D952F00D29F68 /* Assets.xcassets */; };
 		04684672278D952F00D29F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04684670278D952F00D29F68 /* LaunchScreen.storyboard */; };
 		1DCB438CCB1B4BB8AD6E170A /* Pods_LocalPackageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99790E4EDE417D963F7CF9C /* Pods_LocalPackageDemo.framework */; };
+		80D2363C278F0C28007DD6DC /* Fastis in Frameworks */ = {isa = PBXBuildFile; productRef = 80D2363B278F0C28007DD6DC /* Fastis */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,9 @@
 		0468466E278D952F00D29F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04684671278D952F00D29F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04684673278D952F00D29F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0468467A278D97FA00D29F68 /* Fastis */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fastis; sourceTree = "<group>"; };
 		559D28802E66643C65F78A48 /* Pods-LocalPackageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalPackageDemo.debug.xcconfig"; path = "Target Support Files/Pods-LocalPackageDemo/Pods-LocalPackageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		706C5FCE2C1F957E512CB911 /* Pods-LocalPackageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalPackageDemo.release.xcconfig"; path = "Target Support Files/Pods-LocalPackageDemo/Pods-LocalPackageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		80D23638278F0B2D007DD6DC /* Fastis */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fastis; sourceTree = "<group>"; };
 		C99790E4EDE417D963F7CF9C /* Pods_LocalPackageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalPackageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D2363C278F0C28007DD6DC /* Fastis in Frameworks */,
 				1DCB438CCB1B4BB8AD6E170A /* Pods_LocalPackageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +48,7 @@
 		04684659278D952E00D29F68 = {
 			isa = PBXGroup;
 			children = (
-				0468467A278D97FA00D29F68 /* Fastis */,
+				80D23636278F0A14007DD6DC /* Packages */,
 				04684664278D952E00D29F68 /* LocalPackageDemo */,
 				04684663278D952E00D29F68 /* Products */,
 				FE292A3BADC8954CB87B0AF0 /* Pods */,
@@ -84,6 +86,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		80D23636278F0A14007DD6DC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				80D23638278F0B2D007DD6DC /* Fastis */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		FE292A3BADC8954CB87B0AF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +119,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				80D2363A278F0C23007DD6DC /* PBXTargetDependency */,
 			);
 			name = LocalPackageDemo;
+			packageProductDependencies = (
+				80D2363B278F0C28007DD6DC /* Fastis */,
+			);
 			productName = LocalPackageDemo;
 			productReference = 04684662278D952E00D29F68 /* LocalPackageDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +229,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D2363A278F0C23007DD6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 80D23639278F0C23007DD6DC /* Fastis */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0468466B278D952E00D29F68 /* Main.storyboard */ = {
@@ -432,6 +453,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80D23639278F0C23007DD6DC /* Fastis */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fastis;
+		};
+		80D2363B278F0C28007DD6DC /* Fastis */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fastis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0468465A278D952E00D29F68 /* Project object */;
 }
